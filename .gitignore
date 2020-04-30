@@ -1,0 +1,4 @@
+node_modules/
+contao/var/
+.vscode/
+contao/vendor/

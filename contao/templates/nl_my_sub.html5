@@ -1,0 +1,7 @@
+<!-- templates/nl_my_sub.html5 -->
+<div class="my_sub">   
+  <form action="<?= $this->action ?>" method="POST"> 
+    <input type="hidden" name="REQUEST_TOKEN" value="{{request_token}}">
+    <button type="submit">Submit my_sub</button>
+  </form>
+</div>

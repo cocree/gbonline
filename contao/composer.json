@@ -1,0 +1,11 @@
+{
+    "require": {
+        "contao-bootstrap/bundle": "^2.1",
+        "terminal42/contao-easy_themes": "^2.2",
+        "terminal42/contao-mailusername": "^1.0",
+        "madeyourday/contao-rocksolid-custom-elements": "^2.2",
+        "con4gis/maps": "^6.1",
+        "srhinow/srlayer": "^3.1",
+        "metamodels/core": "^2.1"
+    }
+}

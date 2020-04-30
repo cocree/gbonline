@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff version="1.1">
+  <file>
+    <body>
+      <trans-unit id="tl_newsletter_recipients.firstname.0">
+        <target>Vorname</target>
+      </trans-unit>
+      <trans-unit id="tl_newsletter_recipients.firstname.1">
+         <target>Bitte geben Sie den Vornamen ein.</target>
+      </trans-unit>
+      <trans-unit id="tl_newsletter_recipients.lastname.0">
+        <target>Nachname</target>
+      </trans-unit>
+      <trans-unit id="tl_newsletter_recipients.lastname.1">
+        <target>Bitte geben Sie den Nachname ein.</target>
+      </trans-unit>
+      <trans-unit id="tl_newsletter_recipients.gender.0">
+        <target>Geschlecht</target>
+      </trans-unit>
+      <trans-unit id="tl_newsletter_recipients.gender.1">
+        <target>Bitte wählen Sie das Geschlecht.</target>
+      </trans-unit>
+      <trans-unit id="tl_newsletter_recipients.churchname.0">
+         <target>Gemeinde</target>
+      </trans-unit>
+      <trans-unit id="tl_newsletter_recipients.churchname.1">
+        <target>Bitte wählen Sie die Gemeinde.</target>
+      </trans-unit>
+      <trans-unit id="tl_newsletter_recipients.otherchurchname.0">
+        <target>Gemeinde</target>
+      </trans-unit>
+      <trans-unit id="tl_newsletter_recipients.otherchurchname.1">
+         <target>Bitte geben Sie eine Gemeinde ein.</target>
+      </trans-unit>
+      <trans-unit id="tl_newsletter_recipients.personal_legend">
+        <target>Personendaten</target>
+      </trans-unit>
+      <trans-unit id="tl_newsletter_recipients.church_legend">
+        <target>Kirchengemeinde</target>
+      </trans-unit>
+      <trans-unit id="FMD.subscribe_expanded.0">
+        <target>Abonnieren, erweitert</target>
+      </trans-unit>
+    </body>
+  </file>
+</xliff>

@@ -1,0 +1,14 @@
+//customize
+.bg-info-page{
+	background-image: url('../../img/content/dummy_bg.jpg'); 
+	background-repeat: no-repeat; 
+	background-attachment: fixed; 
+	background-size: cover; 
+	position: relative; 
+	z-index: 0;
+	height: calc(100vh - 76px);
+}
+//btn
+.btn{
+    border-radius:0 !important;
+}

@@ -1,0 +1,55 @@
+{
+  "name": "cmg-template-page",
+  "version": "1.0.0",
+  "description": "template for all COCREE contao-projects",
+  "main": "index.js",
+  "dependencies": {
+    "bootstrap": "^4.4.1",
+    "npm-updater": "^3.0.3",
+    "popper.js": "^1.16.1",
+    "vue": "^2.6.11"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.9.0",
+    "@babel/preset-env": "^7.9.5",
+    "@fortawesome/fontawesome-free": "^5.13.0",
+    "animate.css": "^3.7.0",
+    "browser-sync": "^2.26.5",
+    "browserify": "^16.5.1",
+    "glob": "^7.1.6",
+    "gulp": "^4.0.2",
+    "gulp-autoprefixer": "^7.0.1",
+    "gulp-babel": "^8.0.0",
+    "gulp-clean": "^0.4.0",
+    "gulp-clean-css": "^4.3.0",
+    "gulp-concat": "^2.6.1",
+    "gulp-html-minifier": "^0.1.8",
+    "gulp-inject": "^5.0.5",
+    "gulp-plumber": "^1.2.1",
+    "gulp-rename": "^1.4.0",
+    "gulp-sass": "^4.0.2",
+    "gulp-sftp": "^0.1.5",
+    "gulp-sourcemaps": "^2.6.5",
+    "gulp-uglify": "^3.0.2",
+    "gulp-util": "^3.0.8",
+    "jquery": "^3.4.0",
+    "node-sass": "^4.13.1",
+    "npm-check-updates": "^3.2.2",
+    "vinyl-buffer": "^1.0.1",
+    "vinyl-ftp": "^0.6.1",
+    "vinyl-source-stream": "^2.0.0"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cocree/reiseerlebnis.git"
+  },
+  "author": "COCREE media group /cf",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/cocree/reiseerlebnis/issues"
+  },
+  "homepage": "https://github.com/cocree/reiseerlebnis#readme"
+}

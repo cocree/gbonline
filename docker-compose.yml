@@ -1,0 +1,42 @@
+version: '3.1'
+
+services:
+  contao:
+    image: cocree/contao-template-image:4.4.42-ohne-msmtp
+    ports:
+        - 8084:80
+    volumes:
+       # - ./contao/composer.json:/var/www/html/contao/composer.json
+        - ./contao/files:/var/www/html/contao/files
+        - ./contao/app/config:/var/www/html/contao/app/config
+        - ./contao/system/config:/var/www/html/contao/system/config
+        - ./contao/var/logs:/var/www/html/contao/var/logs
+        - ./contao/templates:/var/www/html/contao/templates
+       # - ./contao/web:/var/www//html/contao/web
+    depends_on:
+         - db
+  db:
+    image: mysql:5.7
+    restart: always
+    environment:
+      MYSQL_ROOT_PASSWORD: &password contaodocker
+      MYSQL_DATABASE: &project contao
+      MYSQL_USER: *project
+      MYSQL_PASSWORD: *project
+    volumes: 
+        - ./db:/var/lib/mysql
+  phpmyadmin:
+    image: phpmyadmin/phpmyadmin
+    container_name: phpmyadmin
+    environment:
+     - PMA_ARBITRARY=1
+     - TESTSUITE_PASSWORD=*project
+    restart: always
+    ports:
+     - 8090:80
+    volumes:
+     - /sessions
+    depends_on:
+      - db
+volumes:
+    db_data: {}

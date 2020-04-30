@@ -1,0 +1,13 @@
+# This file has been auto-generated during installation
+parameters:
+    database_host: db
+    database_port: 3306
+    database_user: contao
+    database_password: contao
+    database_name: contao
+    secret: cfccaa526e8e010c8ffc288d32fd4c78b6fe115492c8f9b8bdfceb5c3e21c3a7
+    mailer_transport: smtp
+    mailer_host: smtp.cocree.com
+    mailer_user: test@cocree.com
+    mailer_password: 'D)8vT{eR3&n+nc2?GX'
+    mailer_port: 25
